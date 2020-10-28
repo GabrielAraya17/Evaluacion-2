@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp">
+    </TextView>
+    <TextView
+        android:id="@+id/apellido"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp">
+    </TextView>
+    <TextView
+        android:id="@+id/correo"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp">
+    </TextView>
+    <TextView
+        android:id="@+id/telefono"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp">
+    </TextView>
+    <TextView
+        android:id="@+id/fec_n"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp">
+    </TextView>
+    <Button
+        android:id="@+id/actualizar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/actualizar"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp">
+    </Button>
+    <Button
+        android:id="@+id/eliminar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/eliminar"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp">
+    </Button>
+</LinearLayout>
